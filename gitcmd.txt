@@ -1,0 +1,18 @@
+1. git add --all
+
+//rename branch
+2. git branch -M main
+
+3. git add * / git add --all
+
+4. git commit -m "message of commit"
+
+5. git remote add origin "git@github.com/project.git"
+
+6. Add SSH Key to Profile Account
+ - Open gitbash and type 'ssh-keygen'
+ - Save file /user/.ssh/id_rsa
+ - Upload keyfile to github setting SSH KEYS
+	url : https://github.com/settings/ssh/new
+
+7. git push | git push --set-upstream origin main -f
